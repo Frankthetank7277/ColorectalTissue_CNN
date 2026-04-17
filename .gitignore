@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (15+ GB NCT-CRC-HE-100K dataset, downloadable from Zenodo)
+data/
+
+# Model checkpoints (regenerable via training)
+outputs/checkpoints/
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
