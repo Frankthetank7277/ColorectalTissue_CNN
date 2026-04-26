@@ -3,7 +3,7 @@ extract_training_history.py — One-time utility to reconstruct training history
 from the printed epoch logs in 02_training.ipynb.
 
 Run once from the project root:
-    python -m src.scrape_history
+    python -m src.extract_training_history
 """
 
 import re
