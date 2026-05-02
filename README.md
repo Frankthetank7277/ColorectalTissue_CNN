@@ -13,7 +13,7 @@ Fine-tuned ResNet-50 achieves **95.19% accuracy** (Macro F1 = 0.935) on the CRC-
 
 | Experiment | Strategy | Test Accuracy | Macro F1 | Weighted F1 |
 |---|---|---|---|---|
-| Kather et al. (2019) baseline | VGG19 from scratch | 94.30% | — | — |
+| Kather et al. (2019) baseline | VGG19 (ImageNet pretrained, full fine-tuning) | 94.30% | — | — |
 | Exp A | Frozen backbone, trainable head | 91.66% | 0.8961 | 0.9150 |
 | Exp B | Full fine-tuning, differential LRs + cosine annealing | **95.19%** | **0.9353** | **0.9512** |
 
