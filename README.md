@@ -79,7 +79,8 @@ ColorectalTissue_CNN/
 │   └── extract_training_history.py     # Pulls training curves from checkpoints
 ├── notebooks/
 │   ├── 01_eda.ipynb                    # Exploratory data analysis
-│   └── 02_training.ipynb               # End-to-end training pipeline
+│   ├── 02_training.ipynb               # End-to-end training pipeline
+│   └── 03_results.ipynb                # Results analysis and figures
 ├── outputs/
 │   ├── figures/                        # Confusion matrices, learning curves, class samples
 │   └── results/                        # Classification reports, history arrays
@@ -87,6 +88,7 @@ ColorectalTissue_CNN/
 ├── requirements.txt                    # Pip dependencies (PyTorch + libraries)
 └── README.md
 ```
+
 
 ---
 
